@@ -1,19 +1,20 @@
-# CSS Flecbox
+# CSS Flexbox
 
 
 
 ## O que vamos aprender?
 
-Você vai aprender sobre Css Flexbox
+Você vai aprender sobre CSS Flexbox e layouts responsivos
 
-O desenvolvimento de páginas responsivas tem sido cada vez mais presente e nescessária devido aos vários dispositivos e telas divergentes, então meados de 2008 havia somente quatro formas de posicionar e ajustar os elementos:
-
-* block, inline, table, Position
+O desenvolvimento de páginas responsivas tem sido cada vez mais presente e nescessária devido aos vários dispositivos e telas divergentes, então em meados de 2008 havia somente quatro formas de posicionar e ajustar os elementos: block, inline, table, Position. Eis que chegou em 2009 o Flexbox.
 
 ## Você será capaz de:
 
-Desenvolver layouts responsivos, entender sobre as propriedades do Flexbox
+Desenvolver layouts responsivos, entender sobre as propriedades do Flexbox.
 
+Com Flexbox você será capaz de alinhar os elementos filho de um container através
+de regras aplicadas no container, mas também pode aplicar regras independentes para cada
+elemento filho.
 
 ## Porque isso é importante?
 

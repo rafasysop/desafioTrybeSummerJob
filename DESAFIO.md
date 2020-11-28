@@ -197,6 +197,48 @@ Dica: utilize *justify-content*.
 
 ![](/imagens-ex/exercicio02.png)
 
+Exercicio 03:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*.
+
+![](/imagens-ex/exercicio03.png)
+
+Exercicio 04:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*, *align-items*.
+
+![](/imagens-ex/exercicio04.png)
+
+Exercicio 05:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+![](/imagens-ex/exercicio05.png)
+
+Exercicio 06:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+![](/imagens-ex/exercicio06.png)
+
+Exercicio 07:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+![](/imagens-ex/exercicio07.png)
+
+Exercicio 08:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+![](/imagens-ex/exercicio08.png)
+
 
 
 

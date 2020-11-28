@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercios CSS Flexbox</title>
+    <style type="text/css">
+        .aula {
+            text-align: center;
+        }
+
+        .container {
+            align-items: flex-end;
+            background-color: #333;
+            display: flex;
+            justify-content: flex-end;
+            min-width: 100vh;
+            min-height: 70vh;
+            padding: 20px 5px;
+        }
+
+        .square {
+            align-items: center;
+            background-color: aqua;
+            display: flex;
+            height: 100px;
+            font-size: larger;
+            font-weight: 700;
+            margin: 10px;
+            justify-content: center;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="aula">CSS Flexbox</h1>
+    <div class="container">
+        <div class="square">1</div>
+        <div class="square">2</div>
+        <div class="square">3</div>
+    </div>
+    <footer><h2 class="aula">Exercicio desenvolvido e praticado na <a href="https://www.betrybe.com/" target="_blank"><img src="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png" height="20" sizes="(max-width: 479px) 46vw, 110px" srcset="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3-p-500.png 500w, https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png 522w" alt="Logo Trybe"></a></h2></footer>
+</body>
+</html>

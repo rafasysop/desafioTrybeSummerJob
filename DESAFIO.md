@@ -1,6 +1,8 @@
 # CSS Flexbox
 
+FlexBox é uma forma eficiente de estruturar, alinhar e ordenar itens num container. Junto da Grade e outras especificações, temos um módulo de layout mais completo como resposta para as flutuações, tabelas e outros hacks que designers web tem usado pelos anos.
 
+Com Flexbox, itens podem ser posicionados em qualquer direção e ajustar seus tamanhos, seja crescendo para preencher o espaço ou diminuindo para não estourar o elemento pai.
 
 ## O que vamos aprender?
 
@@ -28,11 +30,18 @@ Caixas podem ter outras caixas e elementos dentro delas, quando isso acontece te
 
 O container "pai" dá aos Filhos Direção, Justificação, Alinhamento. Elementos filhos podem sozinho se ordenar, e se alinha individualmente.
 
+
+###### Importante aprender sobre Os "Eixos" do flexbox
+
+Compreender a diferença entre os eixos principal e perpendicular é o que importa quando começamos a observar o alinhamento ou justificação dos itens flexíveis (flex items); o flexbox possui propriedades que alinham e justificam o conteúdo ao longo de um eixo ou de outro.
+
 #### Display: Flex
+
 vamos começar pelo pai, primeiramente você precisa definir o pai com a propriedade display: flex; que torna o elemento(pai) um flex container automaticamente transformando todos os seus filhos diretos em flex itens porém caso não seja filho direto estes não serão flex itens.
 
 #### Flex Direction
-uma outra propriedade importante é o flex-direction que define a direção dos flex itens. Por padrão ele é row (linha), por isso quando o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
+
+Uma propriedade importante é o flex-direction que define a direção dos flex itens. Por padrão ele é row (linha), por isso quando o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
 
 A mudança de row para column geralmente acontece quando estamos definindo os estilos em media queries para o mobile. Assim você garante que o conteúdo seja apresentado em coluna única.
 
@@ -47,6 +56,50 @@ A mudança de row para column geralmente acontece quando estamos definindo os es
 
 * flex-direction: column-reverse;
 // Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.
+
+#### justify-content
+
+justify-content alinha os flex itens no container de acordo com a direção(flex-direction). A propriedade só funciona se os itens atuais não ocuparem todo o container. Isso significa que ao definir flex: 1; ou algo similar nos itens, a propriedade não terá mais função.
+
+Excelente propriedade para ser usada em casos que você deseja alinhar um item na ponta esquerda e outro na direita, como em um simples header com marca e navegação.
+
+* justify-content: flex-start;
+// Alinha os itens ao início do container.
+
+* justify-content: flex-end;
+// Alinha os itens ao final do container.
+
+* justify-content: center;
+// Alinha os itens ao centro do container.
+
+* justify-content: space-between;
+// Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.
+
+* justify-content: space-around;
+// Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.
+
+* justify-content: space-evenly;
+// Cria um espaçamento entre os elementos. Distribue os items uniformemente/igualmente no espaço ao seu redor tanto inicial, final e meio.
+
+* justify-content: stretch;       
+// Estende/Estica Qualquer item de tamanho automático, onde terá seu tamanho aumentado igualmente (não proporcionalmente), embora ainda respeite as restrições impostas por max-height / max-width (ou funcionalidade equivalente), de modo que o tamanho combinado preenche exatamente o contêiner de alinhamento ao longo do eixo principal.
+
+#### align-items
+
+align-items controla o alinhamento de todos os itens filhos diretos como um grupo no eixo transversal. Lembre - se que:
+O eixo transversal é perpendicular ao eixo principal, logo, se a propriedade flex-direction estiver definida nas linhas, como row ou row-reverse, o eixo transversal estará na direção das colunas, como column ou column-reverse.
+
+Se o eixo principal for definido nas colunas, como column ou column-reverse, então o eixo transversal estará na direção das linhas, como row ou row-reverse.
+
+* align-items: center;
+// Itens posicionados ao redor do centro
+
+* align-items: flex-start;
+// Posiciona itens-flex a partir do início
+
+* align-items: flex-end;
+// Posiciona itens-flex a partir do fim
+
 
 #### flex-wrap
 
@@ -78,28 +131,72 @@ E quando mudamos o flex-wrap para wrap, mantemos o padrão do flex-direction que
 * flex-flow: column nowrap;
 // Coloca o conteúdo em coluna e não permite a quebra de linha
 
-#### justify-content
-
-justify-content alinha os itens flex no container de acordo com a direção(flex-direction). A propriedade só funciona se os itens atuais não ocuparem todo o container. Isso significa que ao definir flex: 1; ou algo similar nos itens, a propriedade não terá mais função.
-
-Excelente propriedade para ser usada em casos que você deseja alinhar um item na ponta esquerda e outro na direita, como em um simples header com marca e navegação.
-
-* justify-content: flex-start;
-// Alinha os itens ao início do container.
-
-* justify-content: flex-end;
-// Alinha os itens ao final do container.
-
-* justify-content: center;
-// Alinha os itens ao centro do container.
-
-* justify-content: space-between;
-// Cria um espaçamento igual entre os elementos. Mantendo o primeiro grudado no início e o último no final.
-
-* justify-content: space-around;
-// Cria um espaçamento entre os elementos. Os espaçamentos do meio são duas vezes maiores que o inicial e final.
 
 ## Exercícios
+
+##### Exercicío 01: Lista de compras
+
+Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS![flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
+
+
+Exercicio 01:
+
+Dado uma div com a classe .container como sendo 'pai' e outras 3 div's com classe .square sendo 'filhas' de container, copie o código html abaixo e crie o arquivo ex01.html(com o codigo copiado) na raiz da sua branch. Na classe pai defina como *flex*.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercios CSS Flexbox</title>
+    <style type="text/css">
+        .aula {
+            text-align: center;
+        }
+
+        .container {
+            background-color: #333;
+            min-width: 100vh;
+            min-height: 70vh;
+            padding: 20px 5px;
+        }
+
+        .square {
+            align-items: center;
+            background-color: aqua;
+            display: flex;
+            height: 100px;
+            font-size: larger;
+            font-weight: 700;
+            margin: 10px;
+            justify-content: center;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="aula">CSS Flexbox</h1>
+    <div class="container">
+        <div class="square">1</div>
+        <div class="square">2</div>
+        <div class="square">3</div>
+    </div>
+    <footer><h2 class="aula">Exercicio desenvolvido e praticado na <a href="https://www.betrybe.com/" target="_blank"><img src="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png" height="20" sizes="(max-width: 479px) 46vw, 110px" srcset="https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3-p-500.png 500w, https://uploads-ssl.webflow.com/5dbd9ce75ad64f24b67f0932/5dbdd9165ad64f5e29811c52_BRAND3.png 522w" alt="Logo Trybe"></a></h2></footer>
+</body>
+</html>
+
+```
+
+Exercicio 02:
+
+Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
+Dica: utilize *justify-content*.
+
+![](/imagens-ex/exercicio02.png)
+
+
+
 
 
 

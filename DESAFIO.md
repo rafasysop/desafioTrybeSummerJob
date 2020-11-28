@@ -141,7 +141,7 @@ Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Fl
 [flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
 
 
-Exercicio 01:
+##### Exercicio 01:
 
 Dado uma div com a classe .container como sendo 'pai' e outras 3 div's com classe .square sendo 'filhas' de container, copie o código html abaixo e crie o arquivo ex01.html(com o codigo copiado) na raiz da sua branch. Na classe pai defina como *flex*.
 
@@ -190,49 +190,49 @@ Dado uma div com a classe .container como sendo 'pai' e outras 3 div's com class
 
 ```
 
-Exercicio 02:
+##### Exercicio 02:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*.
 
 ![](/imagens-ex/exercicio02.png)
 
-Exercicio 03:
+##### Exercicio 03:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*.
 
 ![](/imagens-ex/exercicio03.png)
 
-Exercicio 04:
+##### Exercicio 04:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*.
 
 ![](/imagens-ex/exercicio04.png)
 
-Exercicio 05:
+##### Exercicio 05:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 
 ![](/imagens-ex/exercicio05.png)
 
-Exercicio 06:
+##### Exercicio 06:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 
 ![](/imagens-ex/exercicio06.png)
 
-Exercicio 07:
+##### Exercicio 07:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 
 ![](/imagens-ex/exercicio07.png)
 
-Exercicio 08:
+##### Exercicio 08:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.

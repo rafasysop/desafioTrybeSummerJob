@@ -1,6 +1,6 @@
 # CSS Flexbox
 
-FlexBox é uma forma eficiente de estruturar, alinhar e ordenar itens num container. Junto da Grade e outras especificações, temos um módulo de layout mais completo como resposta para as flutuações, tabelas e outros hacks que designers web tem usado pelos anos.
+FlexBox é uma forma eficiente de estruturar, alinhar e ordenar itens em container's. Junto da Grade e outras especificações, temos um módulo de layout mais completo como resposta para as flutuações, tabelas e outros hacks que designers web tem usado pelos anos.
 
 Com Flexbox, itens podem ser posicionados em qualquer direção e ajustar seus tamanhos, seja crescendo para preencher o espaço ou diminuindo para não estourar o elemento pai.
 
@@ -8,7 +8,7 @@ Com Flexbox, itens podem ser posicionados em qualquer direção e ajustar seus t
 
 Você vai aprender sobre CSS Flexbox e layouts responsivos
 
-O desenvolvimento de páginas responsivas tem sido cada vez mais presente e nescessária devido aos vários dispositivos e telas divergentes, então em meados de 2008 havia somente quatro formas de posicionar e ajustar os elementos: block, inline, table, Position. Eis que chegou em 2009 o Flexbox.
+O desenvolvimento de páginas responsivas tem sido cada vez mais presente e nescessária devido aos vários dispositivos e telas divergentes, então em meados de 2008 havia somente quatro formas de posicionar e ajustar os elementos: _block_, _inline_, _table_, _Position_. Eis que chegou em 2009 o Flexbox.
 
 ## Você será capaz de:
 
@@ -28,10 +28,10 @@ O CSS se baseia em Box Models(caixas dentro de caixas), esses boxes são "pedaç
 
 Caixas podem ter outras caixas e elementos dentro delas, quando isso acontece temos que dizer como a caixa externa posiciona o conteúdo que abriga, ai entra o Flexbox.
 
-O container "pai" dá aos Filhos Direção, Justificação, Alinhamento. Elementos filhos podem sozinho se ordenar, e se alinha individualmente.
+O container "pai" dá aos Filhos Direção, Justificação, Alinhamento. Elementos filhos podem sozinho se ordenar, e se alinhar individualmente.
 
 
-###### Importante aprender sobre Os "Eixos" do flexbox
+##### Importante aprender sobre Os *Eixos* do Flexbox
 
 Compreender a diferença entre os eixos principal e perpendicular é o que importa quando começamos a observar o alinhamento ou justificação dos itens flexíveis (flex items); o flexbox possui propriedades que alinham e justificam o conteúdo ao longo de um eixo ou de outro.
 
@@ -43,7 +43,7 @@ vamos começar pelo pai, primeiramente você precisa definir o pai com a proprie
 
 Uma propriedade importante é o flex-direction que define a direção dos flex itens. Por padrão ele é row (linha), por isso quando o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
 
-A mudança de row para column geralmente acontece quando estamos definindo os estilos em media queries para o mobile. Assim você garante que o conteúdo seja apresentado em coluna única.
+A mudança de row para column geralmente acontece quando estamos definindo os estilos em media queries para o mobile. Assim você garantir que o conteúdo seja apresentado em coluna única.
 
 * flex-direction: row;
 // Os itens ficam em linha
@@ -57,7 +57,7 @@ A mudança de row para column geralmente acontece quando estamos definindo os es
 * flex-direction: column-reverse;
 // Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.
 
-#### justify-content
+#### justify-contentrdena
 
 justify-content alinha os flex itens no container de acordo com a direção(flex-direction). A propriedade só funciona se os itens atuais não ocuparem todo o container. Isso significa que ao definir flex: 1; ou algo similar nos itens, a propriedade não terá mais função.
 
@@ -136,7 +136,7 @@ E quando mudamos o flex-wrap para wrap, mantemos o padrão do flex-direction que
 
 ##### Exercicío 01: Lista de compras
 
-Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS![flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
+Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS.[flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
 
 
 Exercicio 01:

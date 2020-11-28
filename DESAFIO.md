@@ -136,7 +136,9 @@ E quando mudamos o flex-wrap para wrap, mantemos o padrão do flex-direction que
 
 ##### Exercicío 01: Lista de compras
 
-Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS.[flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
+Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS.  
+
+[flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
 
 
 Exercicio 01:

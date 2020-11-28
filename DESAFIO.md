@@ -136,7 +136,9 @@ E quando mudamos o flex-wrap para wrap, mantemos o padrão do flex-direction que
 
 ##### Exercicío 01: Lista de compras
 
-Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS.  
+Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS. 
+Em recursos adicionais também está disponivel um Playgroud para que você tenha uma 
+idéia de como se comporta os elementos.
 
 [flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
 
@@ -256,6 +258,13 @@ Salve o resultado como ex08.html
 
 
 
-
-
 ## Recursos Adicionais
+
+Como recursos adicionais você pode estudar mais profundamente sobre:
+
+[Flexbox na documentação MDN web docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox)
+
+Baixe esse Playground para CSS Flexbox desenvolvido por rmanguinho.
+[PlayGround-Flexbox-css](https://github.com/rmanguinho/flexbox-playground/archive/master.zip)
+
+> Para usar o playground você deve primeiramente baixar o arquivo .zip e extrair, depois acessar a pasta onde você extraiu os arquivos navegar ate a pasta *dist* e abrir o arquivo index.html com seu navegador, então você poderá adicionar novos elementos ou retirar e usar as propriedades do flexbox dinamicamente com javascript.

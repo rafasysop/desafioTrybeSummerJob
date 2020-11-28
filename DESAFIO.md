@@ -260,11 +260,9 @@ Salve o resultado como ex08.html
 
 ## Recursos Adicionais
 
-Como recursos adicionais você pode estudar mais profundamente sobre:
-
-[Flexbox na documentação MDN web docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox)
+Como recursos adicionais você pode estudar mais profundamente sobre: [Flexbox na documentação MDN web docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox).
 
 Baixe esse Playground para CSS Flexbox desenvolvido por rmanguinho.
 [PlayGround-Flexbox-css](https://github.com/rmanguinho/flexbox-playground/archive/master.zip)
 
-> Para usar o playground você deve primeiramente baixar o arquivo .zip e extrair, depois acessar a pasta onde você extraiu os arquivos navegar ate a pasta *dist* e abrir o arquivo index.html com seu navegador, então você poderá adicionar novos elementos ou retirar e usar as propriedades do flexbox dinamicamente com javascript.
+> Para usar o playground você deve primeiramente baixar o arquivo .zip e extrair, depois acessar a pasta onde você extraiu os arquivos navegar ate a pasta **_dist_** e abrir o arquivo **_index.html_** com seu navegador, então você poderá adicionar novos elementos ou retirar e usar as propriedades do flexbox dinamicamente com javascript.

@@ -195,12 +195,16 @@ Dado uma div com a classe .container como sendo 'pai' e outras 3 div's com class
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*.
 
+Salve o resultado como ex02.html
+
 ![](/imagens-ex/exercicio02.png)
 
 ##### Exercicio 03:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*.
+
+Salve o resultado como ex03.html
 
 ![](/imagens-ex/exercicio03.png)
 
@@ -209,12 +213,16 @@ Dica: utilize *justify-content*.
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*.
 
+Salve o resultado como ex04.html
+
 ![](/imagens-ex/exercicio04.png)
 
 ##### Exercicio 05:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+Salve o resultado como ex05.html
 
 ![](/imagens-ex/exercicio05.png)
 
@@ -223,6 +231,8 @@ Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 
+Salve o resultado como ex06.html
+
 ![](/imagens-ex/exercicio06.png)
 
 ##### Exercicio 07:
@@ -230,12 +240,16 @@ Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
 
+Salve o resultado como ex07.html
+
 ![](/imagens-ex/exercicio07.png)
 
 ##### Exercicio 08:
 
 Utilizando css alinhe os Quadrados(.square) de acordo com a imagem abixo:
 Dica: utilize *justify-content*, *align-items*, *flex-direction*.
+
+Salve o resultado como ex08.html
 
 ![](/imagens-ex/exercicio08.png)
 

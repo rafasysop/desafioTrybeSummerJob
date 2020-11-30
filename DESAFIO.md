@@ -149,7 +149,7 @@ Você pode em algum momento querer alinhar algum item filho de um container flex
 
 
 Antes de fazer os nosso exerícios sugiro fazer também os exercícios com o 'Flexbox Froggy', um jogo onde você pode ajudar Froggy e seus amigos ao escrever código CSS. 
-Em recursos adicionais também está disponivel um Playgroud para que você tenha uma 
+Em recursos adicionais também está disponivel um Playground para que você tenha uma 
 idéia de como se comporta os elementos.
 
 [flexboxfroggy.com](http://flexboxfroggy.com/#pt-br)
@@ -283,7 +283,7 @@ Salve o resultado como ex09.html
 
 Como recursos adicionais você pode estudar mais profundamente sobre: [Flexbox na documentação MDN web docs](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Conceitos_Basicos_do_Flexbox).
 
-Baixe esse Playground para CSS Flexbox desenvolvido por rmanguinho.
+Baixe esse Playground para CSS Flexbox desenvolvido por [rmanguinho](https://github.com/rmanguinho/).
 [PlayGround-Flexbox-css](https://github.com/rmanguinho/flexbox-playground/archive/master.zip)
 
 > Para usar o playground você deve primeiramente baixar o arquivo .zip e extrair, depois acessar a pasta onde você extraiu os arquivos navegar ate a pasta **_dist_** e abrir o arquivo **_index.html_** com seu navegador, então você poderá adicionar novos elementos ou retirar e usar as propriedades do flexbox dinamicamente com javascript.

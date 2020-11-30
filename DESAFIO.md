@@ -131,6 +131,19 @@ E quando mudamos o flex-wrap para wrap, mantemos o padrão do flex-direction que
 * flex-flow: column nowrap;
 // Coloca o conteúdo em coluna e não permite a quebra de linha
 
+#### align-self
+
+Você pode em algum momento querer alinhar algum item filho de um container flex individualmente sem alterar os outros filhos flex-items, utilizando o align-self você pode fazer essa modificação, funciona como align-items, mas se aplica apenas a um único item do flexbox, em vez de todos eles.
+
+* align-self: center;
+// Posiciona apenas o elemento selecionado ao redor do centro
+
+* align-self: flex-start;
+// Posiciona apenas o elemento selecionado a partir do início
+
+* align-self: flex-end;
+// Posiciona apenas o elemento selecionado a partir do fim
+
 
 ## Exercícios
 
@@ -254,7 +267,16 @@ Salve o resultado como ex08.html
 
 ![](/imagens-ex/exercicio08.png)
 
+##### Exercicio 09:
 
+Utilizando css alinhe apenas o Quadrado 3 de acordo com a imagem abixo:
+Dica: Utilize *align-self*, você pode fazer a seleção do quadrado utilizando:
+_.square:nth-child(n)_ onde *n* é o numero do elemento com base em sua posição em um grupo de elementos irmãos.
+Modifique também o background-color para *blueviolet*
+
+Salve o resultado como ex09.html
+
+![](/imagens-ex/exercicio09.png)
 
 
 ## Recursos Adicionais
